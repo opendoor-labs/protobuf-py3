@@ -155,7 +155,7 @@ if __name__ == '__main__':
         library_dirs = [ '../src/.libs' ],
         ))
 
-  setup(name = 'protobuf',
+  setup(name = 'protobuf-py3',
         version = '2.6.1',
         packages = [ 'google' ],
         namespace_packages = [ 'google' ],
