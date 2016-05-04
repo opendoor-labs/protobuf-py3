@@ -1,3 +1,26 @@
+This is a Python 3 port of protobuf-2.6.1, that was obtained from the original
+code by simply passing some of the files through the 2to3 tool, following
+instructions found at https://github.com/google/protobuf/issues/7.
+
+The files converted to protobuf-2.6.1 are:
+- protobuf/descriptor.py
+- protobuf/internal/cpp_message.py
+- protobuf/internal/decoder.py
+- protobuf/internal/python_message.py
+- protobuf/internal/type_checkers.py
+- protobuf/internal/message_factory_test.py
+- protobuf/internal/message_factory_python_test.py
+- protobuf/internal/message_python_test.py
+- protobuf/internal/message_test.py
+- protobuf/internal/reflection_test.py
+- protobuf/internal/test_util.py
+- protobuf/internal/text_format_test.py
+- protobuf/message_factory.py
+- protobuf/text_encoding.py
+- protobuf/text_format.py
+
+
+====================Original README============================
 Protocol Buffers - Google's data interchange format
 Copyright 2008 Google Inc.
 
@@ -102,4 +125,3 @@ change the default so that C++ implementation is used whenever it is available.
 It is strongly recommended to run `python setup.py test` after setting the
 variable to "cpp", so the tests will be against C++ implemented Python
 messages.
-
